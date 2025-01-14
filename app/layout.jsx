@@ -1,4 +1,4 @@
-import "./styles/styles.css";
+import "./globals.css";
 
 import localFont from "next/font/local";
 
