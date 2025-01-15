@@ -18,7 +18,7 @@ const adventures = localFont({
       style: "normal",
     },
   ],
-  variable: '--adventures-font',
+  variable: '--font-adventures',
 });
 const brandon = localFont({
   src: [

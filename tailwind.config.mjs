@@ -1,8 +1,8 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
   content: [
-    "./pages/**/*.{js,ts,jsx,tsx,mdx}",
-    "./components/**/*.{js,ts,jsx,tsx,mdx}",
+    "./app/pages/**/*.{js,ts,jsx,tsx,mdx}",
+    "./app/components/**/*.{js,ts,jsx,tsx,mdx}",
     "./app/**/*.{js,ts,jsx,tsx,mdx}",
   ],
   theme: {
@@ -29,7 +29,7 @@ module.exports = {
       },
       fontFamily: {
         brandon: ["var(--font-brandon)"],
-        adventures: ["var(--font-adventures)"],
+        adventures: ["var(--adventures-font)"],
       },
       borderRadius: {
         large : "4rem",

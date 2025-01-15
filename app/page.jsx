@@ -13,7 +13,7 @@ export default function Home() {
           <div className=" flex flex-col items-center justify-start gap-8">
             <div className="flex flex-col items-center justify-center py-6">
               <Image src={logo} className="py-8" alt="Logo" />
-              <span className="text-primary text-4xl text-center font-[var(--font-adventures)]">
+              <span className="text-primary text-4xl text-center font-adventures">
                 Sua consultoria de carreira e desenvolvimento
               </span>
             </div>
@@ -173,7 +173,7 @@ export default function Home() {
                   demais!
                 </p>
               </div>
-              <div className="absolute bottom-0 mb-10 rounded-lg bg-background w-full">*****</div>
+              <div className="absolute z-40 bottom-0 mb-10 rounded-b-[64px] bg-background w-full ">*****</div>
             </div>
             <div className=""></div>
           </div>
