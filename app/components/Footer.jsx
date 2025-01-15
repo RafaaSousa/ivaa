@@ -47,7 +47,7 @@ const Footer = () => {
               width={160} 
               height={60} 
               />
-          <h2 className="font-adventures text-primary py-4">Sua consultoria de carreira e desenvolvimento</h2>
+          <h2 className="font-adventures text-xl text-center text-primary py-4">Sua consultoria de carreira e desenvolvimento</h2>
         </div>
 
         <div className="flex flex-row justify-between items-center px-4 py-4">
