@@ -26,9 +26,9 @@ const cards = () => {
     <div>
       {infos.map((info, index) => {
         return (
-          <div className="bg-primary border rounded-md p-44 py-3 mb-10 flex flex-col items-center text-center ">
+          <div key={index}  className="bg-primary border rounded-[64px] py-3 mb-10 flex flex-col items-center text-center ">
             <div className="m-4">
-              <li key={index} className="list-none">
+              <li className="list-none">
               <div
                 className="flex flex-col items-center text-center py-8"
               >

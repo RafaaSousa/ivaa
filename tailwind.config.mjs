@@ -29,7 +29,10 @@ module.exports = {
       },
       fontFamily: {
         brandon: ["var(--font-brandon)"],
-        adventures: ["Adventures", "sans-serif"],
+        adventures: ["var(--font-adventures)"],
+      },
+      borderRadius: {
+        large : "4rem",
       },
     },
   },

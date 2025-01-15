@@ -94,7 +94,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="pt-br">
-      <body className={` ${adventures.variable} ${brandon.variable} antialiased`}>
+      <body className={` ${brandon.variable} ${adventures.variable} antialiased`}>
         <Header />
         {children}
         <Footer />

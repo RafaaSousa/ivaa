@@ -7,13 +7,13 @@ import Cards from "@/app/components/ui/Cards";
 
 export default function Home() {
   return (
-    <div className="flex flex-col items-center justify-center min-h-screen">
-      <main className="bg-background">
+    <div className="flex flex-col justify-center min-h-screen">
+      <main className="bg-background ">
         <section className="p-8">
-          <div className="min-h-screen flex flex-col items-center justify-start gap-8">
+          <div className=" flex flex-col items-center justify-start gap-8">
             <div className="flex flex-col items-center justify-center py-6">
               <Image src={logo} className="py-8" alt="Logo" />
-              <span className="text-primary text-4xl text-center font-adventures">
+              <span className="text-primary text-4xl text-center font-[var(--font-adventures)]">
                 Sua consultoria de carreira e desenvolvimento
               </span>
             </div>
@@ -130,7 +130,7 @@ export default function Home() {
               <Cards />
             </div>
             <div>
-            <Button
+              <Button
                 className={
                   "bg-background font-brandon text-2xl font-semibold px-8 py-3 rounded-full text-primary"
                 }
@@ -142,10 +142,40 @@ export default function Home() {
         </section>
 
         <section className="bg-accent p-6">
-          <div className="flex flex-col items-center">
-            <div className="bg-primary border rounded-md p-44 py-3 mb-10 flex flex-col items-center text-center">teste</div>
+          <div className="relative z-0 bg-background p-4 flex flex-col pt-6 items-center">
+            <div className=" z-10 static bg-primary rounded-[64px]  p-8 mt-10 flex flex-col items-center text-center">
+              <div className="absolute top-0 z-40 bg-primary rounded-full p-3 flex  ">
+                <div className=" bg-background rounded-full ">
+                  <Image
+                    src="/CarolinePerez.png"
+                    alt="Caroline Perez"
+                    width={100}
+                    height={100}
+                    quality={100}
+                    object-fit="cover"
+                    priority
+                  />
+                </div>
+              </div>
+              <div className="pt-6">
+                <h1 className="font-brandon font-semibold text-2xl">
+                  Caroline Perez
+                </h1>
+                <span className="font-brandon font-medium text-lg">
+                  Consultora e coordenadora de marketing
+                </span>
+                <p className="mt-10 mb-10 font-brandon font-medium">
+                  Tive a oportunidade de participar de dois treinamentos com a
+                  Camila e ambos superaram minhas expectativas. A forma como ela
+                  conduz, com clareza e foco no desenvolvimento real, fez toda a
+                  diferença. Aprendi ferramentas práticas e estratégicas que
+                  impactaram diretamente minha carreira e liderança. Recomendo
+                  demais!
+                </p>
+              </div>
+              <div className="absolute bottom-0 mb-10 rounded-lg bg-background w-full">*****</div>
+            </div>
             <div className=""></div>
-
           </div>
         </section>
       </main>
