@@ -1,9 +1,9 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
   content: [
-    "./app/pages/**/*.{js,ts,jsx,tsx,mdx}",
-    "./app/components/**/*.{js,ts,jsx,tsx,mdx}",
-    "./app/**/*.{js,ts,jsx,tsx,mdx}",
+    './app/**/*.{js,ts,jsx,tsx,mdx}',
+    './components/**/*.{js,ts,jsx,tsx,mdx}',
+    './layouts/**/*.{js,ts,jsx,tsx,mdx}',
   ],
   theme: {
     container: {
@@ -32,9 +32,9 @@ module.exports = {
         adventures: ["var(--adventures-font)"],
       },
       borderRadius: {
-        large : "4rem",
+        large: "4rem",
       },
     },
   },
   plugins: [],
-};
+}

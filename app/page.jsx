@@ -142,7 +142,7 @@ export default function Home() {
         </section>
 
         <section className="bg-accent p-6">
-          <div className="relative z-0 bg-background p-4 flex flex-col pt-6 items-center">
+          <div className="relative z-0 bg-accent p-4 flex flex-col pt-6 items-center">
             <div className=" z-10 static bg-primary rounded-[64px]  p-8 mt-10 flex flex-col items-center text-center">
               <div className="absolute top-0 z-40 bg-primary rounded-full p-3 flex  ">
                 <div className=" bg-background rounded-full ">
@@ -173,9 +173,26 @@ export default function Home() {
                   demais!
                 </p>
               </div>
-              <div className="absolute z-40 bottom-10 mb-4 rounded-b-[64px] bg-background w-full ">*****</div>
+              <div className="absolute z-40 bottom-0 mb-10  rounded-b-md bg-background w-full  "><span className="text-xl">*****</span></div>
             </div>
-            <div className=""></div>
+          </div>
+        </section>
+
+        <section className="bg-primary p-6">
+          <div className="flex flex-col items-center">
+            <div>
+              <h1 className="text-center text-lg font-brandon font-semibold py-4">Pronto para transformar sua carreira e alcançar seus objetivos com confiança?</h1>
+              <span className="text-center font-brandon py-4">Dê o próximo passo na sua jornada de autodesenvolvimento e liderança. Vamos juntos construir o caminho para o sucesso!</span>
+            </div>
+            <div className="p-4">
+            <Button
+                className={
+                  "bg-accent font-brandon text-2xl font-semibold px-8 py-3 rounded-full text-primary"
+                }
+              >
+                Bora conversar?
+              </Button>
+            </div>
           </div>
         </section>
       </main>
