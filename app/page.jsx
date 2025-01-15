@@ -173,7 +173,7 @@ export default function Home() {
                   demais!
                 </p>
               </div>
-              <div className="absolute z-40 bottom-0 mb-10 rounded-b-[64px] bg-background w-full ">*****</div>
+              <div className="absolute z-40 bottom-0 mb-4 rounded-b-[64px] bg-background w-full ">*****</div>
             </div>
             <div className=""></div>
           </div>
